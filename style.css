@@ -45,5 +45,7 @@ li .nav-item,a {
 img{
     width: 500px;
     height: 250px;
+    display: flex;
     justify-content: center;
+    margin: auto;
 }
