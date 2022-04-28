@@ -2,4 +2,33 @@ body{
     background-image: url(/assets/3D.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    color: white;
+    font-family: 'Tapestry';
+    font-size: large;
+    justify-content: center;
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 100%;
+}
+ul{
+    display: flex;
+    list-style: none;
+
+}
+button{
+    color: none;
+}
+.nav-item,a {
+    width: fit-content;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    height: 200px;
 }
