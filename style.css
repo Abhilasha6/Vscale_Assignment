@@ -7,6 +7,11 @@ body{
     font-size: large;
     justify-content: center;
 }
+.container{
+    width: 720px;
+    height: max-content;
+}
+
 .header{
     display: flex;
     flex-wrap: wrap;
@@ -31,8 +36,14 @@ li .nav-item,a {
     justify-content: space-between;
 }
 .nav-logo{
+    width: 80px;
     height: 80px;
 }
 .intro{
     color: gainsboro;
+}
+img{
+    width: 500px;
+    height: 250px;
+    justify-content: center;
 }
