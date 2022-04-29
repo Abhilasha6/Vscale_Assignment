@@ -1,5 +1,5 @@
 body{
-    background-image: url(/assets/3D.jpg);
+    background-image: url(./assets/3D.jpg);
     background-position: center top;
      /* filter: blur(8px);  */
     background-repeat: no-repeat;
