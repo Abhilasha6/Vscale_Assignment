@@ -1,7 +1,7 @@
 body{
     background-image: url(/assets/3D.jpg);
     background-position: center top;
-    /* filter: blur(8px); */
+     /* filter: blur(8px);  */
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -9,6 +9,7 @@ body{
     font-size: large;
     justify-content: center;
 }
+/* body back */
 .container{
     width: 100%;
     height: max-content;
@@ -36,6 +37,9 @@ body{
     display: flex;
     list-style: none;
     justify-content: space-evenly;
+}
+.container .header .navbar ul li:hover{
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #00ffff;
 }
 /* button{
     color: none;
@@ -132,10 +136,16 @@ img{
     margin: auto;
     padding: 5px;
     display: flex;
+    border-radius: 15px;
 }
 .body-content .content3 .flex-container .group .btn-grp{
-    width: 100%;
     display: flex;
+}
+.body-content .content3 .flex-container .group .btn-grp button{
+    /* width: 100%;*/
+    display: flex;
+    border-radius: 15px;
+    justify-content: center;
 }
 .body-content .social .flex-container .text{
 margin: auto;
