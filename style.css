@@ -106,8 +106,8 @@ img{
     display: flex;
 }
 .body-content .social .flex-container .text{
-justify-content: center;    
 margin: auto;
+justify-content: space-evenly;
 }
 
 .footer .footer-logo{
@@ -117,7 +117,9 @@ margin: auto;
     justify-content:left ;
 }
 .footer.flex-container.info h3{
-    text-align: right;
+    margin: auto;
+    width: 100%;
+    justify-content: right;
 }
 .footer .info .col{
     /* width: 400px; */
