@@ -96,7 +96,7 @@ img{
 } 
 .body-content .content3 .flex-container .group img{
     width: 200px;
-    height: 100px;
+    height: 150px;
     margin: auto;
     padding: 5px;
     display: flex;
@@ -105,13 +105,22 @@ img{
     width: 100%;
     display: flex;
 }
+.body-content .social .flex-container .text{
+justify-content: center;    
+margin: auto;
+}
+
 .footer .footer-logo{
     margin: auto;
     display: flex;
     width: 500px;
     justify-content:left ;
 }
+.footer.flex-container.info h3{
+    text-align: right;
+}
 .footer .info .col{
-    width: 400px;
+    /* width: 400px; */
+    display: flex;
     justify-content: right;
 }
