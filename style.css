@@ -52,15 +52,17 @@ li .nav-item,a {
     margin: auto;
     padding: 10px 10px;
 }
- p,h3,h1{
+ p,h2,h1{
     align-items: center;
     display: flex;
     justify-content: center;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #00ffff;
+
 }
-.body-content .intro{
-    color: gainsboro;
-    /* display: flex; */
-}
+/* .body-content .intro{
+     color: gainsboro; 
+     display: flex; 
+} */
 /* .body-content .intro p, .body-content .intro img{
     display: flexbox;
 } */
@@ -77,6 +79,9 @@ img{
     display: flex;
     justify-content: center;
     margin: auto;
+    padding: 10px;
+    box-shadow: 10px 10px 5px lightblue;
+    /* border-radius: 10px; */
 }
 .body-content .intro .join {
     margin: 0 auto;
