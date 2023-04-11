@@ -1,8 +1,11 @@
 # Vscale_Assignment
 Link to the hosted website: https://abhilasha6.github.io/Vscale_Assignment/
 ---------------------------------
-This frontend website is a part of assignment for Vscale Internship.
+This is a gaming website called CredGuild's prototype, initially a part of assignment for Vscale Internship, and now open for contributions in HACKODEX2023.
 <br>
-It is built using frontend technologies like HTML & CSS.
+**Mentor- Abhilasha Panda**
 <br>
-**By- Abhilasha Panda**
+Tech Stacks Used:
+HTML<br>
+CSS<br>
+Interested students can work on any of these issues-:
