@@ -7,7 +7,7 @@ This is a gaming website called CredGuild's prototype, initially a part of assig
 <p>
 <h3>Tech Stacks Used:</h3>
 HTML<br>
-CSS</p><br>
+CSS</p>
 
 Interested students can contribute to resolve any of the issues mentioned below -:<br>
 <ul>
