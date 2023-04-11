@@ -1,13 +1,13 @@
 # Vscale_Assignment
 <h2>
 This is a gaming website called CredGuild's prototype, initially a part of assignment for Vscale Internship, and now open for contributions in HACKODEX2023.</h2>
-<br>
+
 <b>Mentor- Abhilasha Panda</b>
-<br><br>
+
 <h3>Tech Stacks Used:</h3><br>
 HTML<br>
 CSS<br>
----------------------------------
+
 Interested students can contribute to resolve any of the issues mentioned below -:<br>
 <ul>
     <li>Remove socials from navbar</li>
