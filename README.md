@@ -4,9 +4,9 @@ This is a gaming website called CredGuild's prototype, initially a part of assig
 
 <b>Mentor- Abhilasha Panda</b>
 
-<h3>Tech Stacks Used:</h3><br>
+<h3>Tech Stacks Used:</h3>
 HTML<br>
-CSS<br>
+CSS<br><br>
 
 Interested students can contribute to resolve any of the issues mentioned below -:<br>
 <ul>
@@ -22,6 +22,5 @@ Interested students can contribute to resolve any of the issues mentioned below 
     <li>Make the website mobile responsive.</li>
 </ul>
 <br>
----------------------------------
 For any other queries, contact at:  meabhilashapanda@gmail.com <br>
 GOOD DAY EVERYONE!
