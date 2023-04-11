@@ -1,9 +1,10 @@
 # Vscale_Assignment
-This is a gaming website called CredGuild's prototype, initially a part of assignment for Vscale Internship, and now open for contributions in HACKODEX2023.
+<h2>
+This is a gaming website called CredGuild's prototype, initially a part of assignment for Vscale Internship, and now open for contributions in HACKODEX2023.</h2>
 <br>
-**Mentor- Abhilasha Panda**
+<b>Mentor- Abhilasha Panda</b>
 <br><br>
-Tech Stacks Used:<br>
+<h3>Tech Stacks Used:</h3><br>
 HTML<br>
 CSS<br>
 ---------------------------------
