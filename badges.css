@@ -1,0 +1,120 @@
+body {
+    /* background-image: url(./assets/3D.jpg); */
+    background-color: #303948;
+    background-position: center top;
+    /* filter: blur(8px);  */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: "Tapestry";
+    font-size: large;
+    justify-content: center;
+  }
+  /* body back */
+  .container {
+    width: 100%;
+    height: max-content;
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+  
+  .header {
+    display: flex;
+    /* flex-wrap: wrap; */
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 100%;
+    text-decoration: none;
+    background-color: rgb(24, 39, 39);
+    /* height: 70px; */
+  }
+  .container .header .navbar {
+    width: 100%;
+    margin: auto;
+    padding: auto;
+  }
+  .container .header .navbar ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+  }
+  .container .header .navbar ul li:hover {
+    text-shadow: 0 0 3px #ff0000, 0 0 5px #00ffff;
+  }
+  /* button{
+      color: none;
+  } */
+  a {
+    text-decoration: none;
+  }
+
+  .container .header li .nav-item:hover {
+    text-shadow: 0 0 3px #ff0000, 0 0 5px #00ffff;
+  }
+  li .nav-item,
+  a {
+    width: max-content;
+    color: white;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+  }
+  .container .header .nav-logo {
+    width: 5em;
+    box-shadow: none;
+    /* margin: auto; */
+    padding: 0;
+    height: 13vh;
+  }
+
+.badges{
+    width: 80%;
+    padding: auto;
+    padding-left: 5rem;
+}
+
+  .badge1,.badge2,.badge3,.badge4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Navbar Responsive */
+  @media screen and (max-width:685px) {
+    .header{
+        width: 100%;
+    }
+    .container .header .navbar ul {
+        display: flex;
+        justify-content: space-around;
+    }
+    .navbar-nav li{
+        width: max-content;
+        font-size: 0.85rem;
+    }
+  }
+
+  @media screen and (max-width:750px) {
+    .badge1,.badge3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .badge2,.badge4{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+
+  @media screen and (max-width:900px) {
+    .badge1 img,.badge2 img,.badge3 img,.badge4 img{
+        height: 20rem;
+        width: 20rem;
+    }
+  }
+  
