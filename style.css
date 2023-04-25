@@ -1,28 +1,32 @@
 body {
-  background-image: url(./assets/3D.jpg);
-  background-position: center top;
+  /* background-image: url(./assets/3D.jpg); */
+  background-color: #303948;
+  margin: 0;
+  padding: 0;
+  /* background-position: center top; */
   /* filter: blur(8px);  */
-  background-repeat: no-repeat;
-  background-size: cover;
+  /* background-repeat: no-repeat;
+  background-size: cover; */
   color: white;
   font-family: "Tapestry";
   font-size: large;
   justify-content: center;
+  overflow-x: hidden;
 }
 /* body back */
 .container {
-  width: 100%;
-  height: max-content;
-  margin: 0 auto;
-  padding: 0 auto;
+  /* width: 100%; */
+  /* height: max-content; */
+  /* margin: 0 auto;
+  padding: 0 auto; */
 }
 
 .header {
   display: flex;
   /* flex-wrap: wrap; */
   box-sizing: border-box;
-  margin: 0 auto;
-  padding: 0 auto;
+  /* margin: 0 auto;
+  padding: 0 auto; */
   width: 100%;
   text-decoration: none;
   background-color: rgb(24, 39, 39);
@@ -107,18 +111,20 @@ h1 {
 .body-content .flex-container {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .body-content .flex-container img {
-  margin: auto;
-  margin-right: 30px;
+  /* margin: auto; */
+  margin-right: 20px;
 }
 img {
-  width: 500px;
+  width: 450px;
   height: 250px;
   display: flex;
   justify-content: center;
-  margin: auto;
-  padding: 0;
+  align-items: center;
+  /* margin: auto; */
+  /* padding: 0; */
   box-shadow: 10px 10px 5px lightblue;
   border-radius: 15px;
 }
@@ -188,4 +194,32 @@ img {
 .footer .col svg {
   width: 20px;
   height: 20px;
+}
+
+@media screen and (max-width:850px) {
+  .flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .flex-container img{
+    width: 50%;
+    margin-right: 0px !important;
+  }
+}
+
+ /* Navbar Responsive */
+ @media screen and (max-width:685px) {
+  .header{
+      width: 100%;
+  }
+  .container .header .navbar ul {
+      display: flex;
+      justify-content: space-around;
+  }
+  .navbar-nav li{
+      width: max-content;
+      font-size: 0.85rem;
+  }
 }
