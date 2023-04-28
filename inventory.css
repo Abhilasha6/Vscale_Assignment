@@ -1,0 +1,118 @@
+body {
+    /* background-image: url(./assets/3D.jpg); */
+    background-color: #303948;
+    background-position: center top;
+    /* filter: blur(8px);  */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: "Tapestry";
+    font-size: large;
+    justify-content: center;
+  }
+  /* body back */
+  .container {
+    width: 100%;
+    height: max-content;
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+  
+  .header {
+    display: flex;
+    /* flex-wrap: wrap; */
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 100%;
+    text-decoration: none;
+    background-color: rgb(24, 39, 39);
+    /* height: 70px; */
+  }
+  .container .header .navbar {
+    width: 100%;
+    margin: auto;
+    padding: auto;
+  }
+  .container .header .navbar ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+  }
+  .container .header .navbar ul li:hover {
+    text-shadow: 0 0 3px #ff0000, 0 0 5px #00ffff;
+  }
+  /* button{
+      color: none;
+  } */
+  a {
+    text-decoration: none;
+  }
+
+  .container .header li .nav-item:hover {
+    text-shadow: 0 0 3px #ff0000, 0 0 5px #00ffff;
+  }
+  li .nav-item,
+  a {
+    width: max-content;
+    color: white;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+  }
+  .container .header .nav-logo {
+    width: 5em;
+    box-shadow: none;
+    /* margin: auto; */
+    padding: 0;
+    height: 13vh;
+  }
+ 
+  h1{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+  }
+
+.guns_img,.swords_img, .artefacts_img, .vehicles_img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: space-between;
+}
+
+.guns_img img, .swords_img img, .artefacts_img img, .vehicles_img img{
+    padding: 10px;
+    height: 20rem;
+    width: 20rem;
+}
+
+
+ /* Navbar Responsive */
+ @media screen and (max-width:685px) {
+    .header{
+        width: 100%;
+    }
+    .container .header .navbar ul {
+        display: flex;
+        justify-content: space-around;
+    }
+    .navbar-nav li{
+        width: max-content;
+        font-size: 0.85rem;
+    }
+  }
+
+  @media screen and (max-width:800px) {
+    .guns_img,.swords_img, .artefacts_img, .vehicles_img {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.guns_img img, .swords_img img, .artefacts_img img, .vehicles_img img{
+    padding: 5px;
+    height: 15rem;
+    width: 15rem;
+}
+  }
